@@ -50,10 +50,10 @@ function About() {
 
 function Team() {
   const members = [
-    { name: "Aryan Sinha", role: "Team Leader" },
-    { name: "Aman", role: "Member" },
-    { name: "Anurag Kumar", role: "Member" },
-    { name: "Ansal Pandey", role: "Member" },
+    { name: "Aryan Sinha", role: "Team Leader", collage: "ADGIPS" },
+    { name: "Aman", role: "Member" , collage: "BPIT"},
+    { name: "Anurag Kumar", role: "Member" , collage: "USICT" },
+    { name: "Ansal Pandey", role: "Member", collage: "BPIT" },
   ];
   return (
     <div className="min-h-screen pt-32 px-8">
@@ -64,8 +64,9 @@ function Team() {
             <div className="w-14 h-14 rounded-full bg-black mx-auto mb-3 flex items-center justify-center">
               <span className="text-white font-black text-xl">{m.name[0]}</span>
             </div>
-            <h2 className="text-gray-900 font-bold">{m.name}</h2>
-            <p className="text-gray-400 text-sm">{m.role}</p>
+            <h2 className="text-gray-900 font-bold text-lg">{m.name}</h2>
+            <p className="text-gray-400 text-md">{m.role}</p>
+            <p className="text-gray-600 text-sm mt-1">{m.collage}</p>
           </div>
         ))}
       </div>
