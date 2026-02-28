@@ -38,8 +38,7 @@ A: Authentication is the process of verifying who a user is — confirming their
 -------------------------------------------------------------
 
 Q7. Explain the concept of microservices vs monolithic architecture.
-A: A monolithic architecture bundles all application logic — UI, business logic, data access — into a single deployable unit. It is simple to develop initially but becomes hard to scale, maintain, and deploy as it grows. A microservices architecture splits the application into small, independent services, each responsible for a specific business capability (e.g., user service, payment service, notification service). Each service runs independently, can be deployed separately, and communicates over APIs or message queues. Microservices offer better scalability, fault isolation, and technology flexibility, but they introduce complexity in networking, data consistency, and DevOps. Teams typically start with a monolith and migrate to microservices as the product scales.
-
+A: Authentication is the process of verifying who a user is — confirming their identity. This is done through credentials like username/password, OTP, biometrics, or OAuth tokens. Authorization is the process of verifying what a user is allowed to do — determining their permissions after identity is confirmed. For example, both a regular user and an admin may be authenticated (logged in), but only the admin is authorized to delete records. In practice, authentication comes first; authorization follows. Tools like JWT handle authentication by encoding identity in tokens, while role-based access control (RBAC) or attribute-based access control (ABAC) handle authorization logic.
 -------------------------------------------------------------
 
 Q8. What are React hooks and why were they introduced?

@@ -18,10 +18,10 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2">
                     <div className="w-8 h-8 bg-black rounded flex items-center justify-center">
-                        <span className="text-white font-black text-xs">BX</span>
+                        <span className="text-white font-black text-xs">JX</span>
                     </div>
                     <span className="text-black font-black text-lg tracking-widest">
-                        BUILD<span className="text-gray-500">X</span>
+                        JUGAAD.<span className="text-gray-500">exe</span>
                     </span>
                 </Link>
 
@@ -31,8 +31,8 @@ export default function Navbar() {
                         <Link
                             key={link.path}
                             to={link.path}
-                            className={`text-sm font-semibold tracking-wider uppercase transition-colors duration-200 ${location.pathname === link.path
-                                    ? "text-black"
+                            className={`text-sm font-semibold tracking-wider uppercase transition-colors duration-200 font-bold ${location.pathname === link.path
+                                    ? "text-black font-bold"
                                     : "text-gray-400 hover:text-black"
                                 }`}
                         >
