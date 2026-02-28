@@ -31,7 +31,7 @@ export default function Navbar() {
                         <Link
                             key={link.path}
                             to={link.path}
-                            className={`text-sm font-semibold tracking-wider uppercase transition-colors duration-200 font-bold ${location.pathname === link.path
+                            className={`text-sm tracking-wider uppercase transition-colors duration-200 font-bold ${location.pathname === link.path
                                     ? "text-black font-bold"
                                     : "text-gray-400 hover:text-black"
                                 }`}

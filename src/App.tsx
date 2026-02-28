@@ -41,7 +41,7 @@ function About() {
       <div className="text-center">
         <h1 className="text-5xl font-black text-gray-900 mb-4">ABOUT</h1>
         <p className="text-gray-500 text-lg max-w-xl">
-          JUGAAD.exe — an agentic AI-powered mock interview platform built at BuildX Hackathon 2026.
+          JUGAAD.exe is a team of four passionate developers who came together at BuildX 2026 with one goal — to make quality interview preparation accessible to every student, regardless of their background or resources. We built an Agentic AI-Powered Mock Interview Platform that simulates real interview experiences by analyzing your resume, generating personalized questions, and evaluating your responses — all without relying on expensive third-party AI APIs. Our platform uses local LLM inference powered by Ollama, ensuring your data stays private and the experience stays fast. From resume parsing and adaptive questioning to instant performance scoring and actionable feedback, every feature was designed with one candidate in mind — someone who wants to walk into their next interview feeling genuinely prepared. We believe the gap between academic learning and industry expectations shouldn't exist, and with this platform, we're closing it — one mock interview at a time.
         </p>
       </div>
     </div>
